@@ -1,7 +1,7 @@
 import { About } from "./components/about/About";
 import { Experience } from "./components/experiense/Experience";
 import { Projects } from "./components/projects/Project";
-import { Skills } from "./components/skills/skills";
+import { Skills } from "./components/skills";
 
 export default function App() {
   return (
