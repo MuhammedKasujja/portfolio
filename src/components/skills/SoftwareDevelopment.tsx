@@ -12,7 +12,7 @@ export function SoftwareDevelopment() {
       <div className="flex flex-row gap-4 flex-wrap">
         {skills.develpoment.softwareSkills.map((item) => (
           <div
-            className="p-2 rounded text-white"
+            className="p-2 rounded text-white min-w-14 flex justify-center"
             style={{ background: item.style.color }}
           >
             {item.name}

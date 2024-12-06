@@ -5,7 +5,7 @@ import { Skills } from "./components/skills";
 
 export default function App() {
   return (
-    <div className="flex flex-col gap-5 justify-center w-screen p-5">
+    <div className="flex flex-col gap-5 justify-center p-5">
       <About />
       <Skills/>
       <Experience />
