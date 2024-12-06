@@ -9,15 +9,15 @@ export const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Software Engineer",
-          company: "Crest Infosystems Pvt. Ltd.",
+          title: "Full Stack Developer",
+          company: "Project Code UG",
           company_url: "https://www.crestinfosystems.com/",
           logo_path: "crest.png",
           duration: {
-            startDate: "2020",
+            startDate: "Mar 2021",
             endDate: "Present",
           },
-          location: "Surat, Gujarat",
+          location: "Kampala, Uganda",
           description: `Worked on enterprise-level software solutions including employee
     activity tracking system, point of sale system and support ticket
     systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
@@ -60,8 +60,8 @@ export const experience = {
         //   bgColor: "#0071C5",
         // },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
+          title: "Full Stack Developer (Remote)",
+          company: "Blue Pearls ltd",
           company_url: "http://nightowls.company/",
           logo_path: "nightowls.jpg",
           duration: {
@@ -86,7 +86,7 @@ export const experience = {
           company_url: "https://bauddhikgeeks.tech/",
           logo_path: "bauddhikgeeks.png",
           duration: {
-            startDate: "Sep 2020",
+            startDate: "Feb 2020",
             endDate: "Present",
           },
           location: "Work From Home",
