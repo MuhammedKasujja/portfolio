@@ -11,25 +11,11 @@ export const skills = {
     ],
     softwareSkills: [
       {
-        name: "HTML5",
-        fontAwesomeClassname: "simple-icons:html5",
-        style: {
-          color: "#E34F26",
-        },
-      },
-      {
-        name: "CSS3",
-        fontAwesomeClassname: "fa-css3",
-        style: {
-          color: "#1572B6",
-        },
-      },
-      {
         name: "Typescript",
         fontAwesomeClassname: "simple-icons:typescript",
         style: {
           backgroundColor: "#FFFFFF",
-          color: "#F7DF1E",
+          color: "#E34F26",
         },
       },
       {
@@ -108,6 +94,13 @@ export const skills = {
         fontAwesomeClassname: "simple-icons:git",
         style: {
           color: "#E94E32",
+        },
+      },
+      {
+        name: "Tailwind",
+        fontAwesomeClassname: "simple-icons:tailwind",
+        style: {
+          color: "#1572B6",
         },
       },
     ],
