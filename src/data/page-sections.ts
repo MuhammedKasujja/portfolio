@@ -5,7 +5,7 @@ export const pageSections = [
   },
   {
     title: "Skills",
-    scrollId: "skils",
+    scrollId: "skills",
   },
   {
     title: "Projects",
@@ -13,7 +13,7 @@ export const pageSections = [
   },
   {
     title: "Experience",
-    scrollId: "Experience",
+    scrollId: "experience",
   },
   {
     title: "CV",

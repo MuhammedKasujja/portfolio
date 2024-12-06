@@ -1,6 +1,6 @@
 import { greeting } from "./about";
 import { certifications } from "./certifications";
-import { contactPageData } from "./contact-info";
+import { contactsInfo } from "./contact-info";
 import { education } from "./education";
 import { experience } from "./experience";
 import { pageSections } from "./page-sections";
@@ -20,7 +20,7 @@ export {
   certifications,
   experience,
   projectsHeader,
-  contactPageData,
+  contactsInfo,
   projects,
   pageSections
 };

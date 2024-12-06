@@ -1,4 +1,4 @@
-export const contactPageData = {
+export const contactsInfo = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "hari-crop.png",
