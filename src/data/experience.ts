@@ -28,45 +28,34 @@ export const experience = {
     performance.`,
           bgColor: "#0071C5",
         },
-        // {
-        //   title: "Node.js Backend Developer",
-        //   company: "Valora Infotech",
-        //   company_url: "http://valorainfotech.com/",
-        //   logo_path: "valora.jpg",
-        //   duration: "Oct 2020 - Dec 2022",
-        //   location: "Surat, Gujarat",
-        //   description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-        //   Focus on change request functions in close collaboration with the project manager and team leads.
-        //   Developed new and maintained existing applications.
-        //   Increased productivity and problem-solving technics by 20%.
-        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   bgColor: "#0071C5",
-        // },
-        // {
-        //   title: "Node.js Backend Developer (Intern)",
-        //   company: "Valora Infotech",
-        //   company_url: "http://valorainfotech.com/",
-        //   logo_path: "valora.jpg",
-        //   duration: "Oct 2020 - Mar 2021",
-        //   location: "Surat, Gujarat",
-        //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
-        //   Developed new and maintained existing applications.
-        //   Increased productivity and problem-solving technics by 20%.
-        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   bgColor: "#0071C5",
-        // },
+        {
+          title: "Full Stack Developer (Remote)",
+          company: "KGP2 SS INDIA PVT LTD",
+          company_url: "https://www.crestinfosystems.com/",
+          logo_path: "crest.png",
+          duration: {
+            startDate: "Jan 2024",
+            endDate: "May 2024",
+          },
+          location: "India",
+          description: `Worked on enterprise-level software solutions including employee
+    activity tracking system, point of sale system and support ticket
+    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+    multiple projects by developing and maintaining full-stack web apps
+    with modern technologies like Electron.js, React.js, Node.js, and
+    Sequelize. Designed and implemented custom solutions for tracking employee
+    activity and database optimizations, resulting in improvement in
+    performance.`,
+          bgColor: "#0071C5",
+        },
         {
           title: "Full Stack Developer (Remote)",
           company: "Blue Pearls ltd",
           company_url: "http://nightowls.company/",
           logo_path: "nightowls.jpg",
           duration: {
-            startDate: "Sep 2020",
-            endDate: "Oct 2020",
+            startDate: "Mar 2020",
+            endDate: "Present",
           },
           location: "Work From Home",
           description: `Maintain close contact with the client and team when handling change requests.
@@ -74,6 +63,46 @@ export const experience = {
               `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           bgColor: "#ee3c26",
+        },
+        {
+          title: "Software Developer",
+          company: "All3n",
+          company_url: "https://www.crestinfosystems.com/",
+          logo_path: "crest.png",
+          duration: {
+            startDate: "Aug 2019",
+            endDate: "Feb 2020",
+          },
+          location: "Kampala, Uganda",
+          description: `Worked on enterprise-level software solutions including employee
+    activity tracking system, point of sale system and support ticket
+    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+    multiple projects by developing and maintaining full-stack web apps
+    with modern technologies like Electron.js, React.js, Node.js, and
+    Sequelize. Designed and implemented custom solutions for tracking employee
+    activity and database optimizations, resulting in improvement in
+    performance.`,
+          bgColor: "#0071C5",
+        },
+        {
+          title: "Junior Software Developer",
+          company: "Oratec ltd",
+          company_url: "https://www.crestinfosystems.com/",
+          logo_path: "crest.png",
+          duration: {
+            startDate: "Apr 2017",
+            endDate: "Jun 2019",
+          },
+          location: "Mengo, Kampala, Uganda",
+          description: `Worked on enterprise-level software solutions including employee
+    activity tracking system, point of sale system and support ticket
+    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+    multiple projects by developing and maintaining full-stack web apps
+    with modern technologies like Electron.js, React.js, Node.js, and
+    Sequelize. Designed and implemented custom solutions for tracking employee
+    activity and database optimizations, resulting in improvement in
+    performance.`,
+          bgColor: "#0071C5",
         },
       ],
     },
