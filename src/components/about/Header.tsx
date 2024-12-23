@@ -1,4 +1,5 @@
 import { pageSections } from "../../data";
+import { ThemeToggle } from "../theme-toggle";
 import { Button } from "../ui/button";
 
 export function NavigationHearder() {
@@ -22,6 +23,7 @@ export function NavigationHearder() {
           {section.title}
         </Button>
       ))}
+      <ThemeToggle/>
     </section>
   );
 }

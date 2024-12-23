@@ -16,7 +16,7 @@ export function Contacts() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Contacts</CardTitle>
+        <CardTitle>Contact Me</CardTitle>
         <CardDescription>
           {contactsInfo.contactSection.description}
         </CardDescription>
