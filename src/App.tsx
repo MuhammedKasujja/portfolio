@@ -15,7 +15,7 @@ export default function App() {
           <NavigationHearder />
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6">
-          <div className="md:col-span-2">
+          <div className="flex justify-center md:col-span-2">
             <About />
           </div>
           <div className="md:col-span-4">
