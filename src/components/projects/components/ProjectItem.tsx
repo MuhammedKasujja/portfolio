@@ -1,4 +1,10 @@
 import { IProject } from "../../../types";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 type Props = {
   project: IProject;
@@ -6,9 +12,11 @@ type Props = {
 
 export function ProjectItem({ project }: Props) {
   return (
-    <div className="flex flex-col gap-4 bg-slate-300 w-full px-5 py-4 rounded-md">
-      <div className="font-semibold">{project.name}</div>
-      <div>{project.description}</div>
-    </div>
+    <Card className="w-full">
+      <CardHeader className="font-semibold">
+        <CardTitle>{project.name}</CardTitle>
+      </CardHeader>
+      <CardContent>{project.description}</CardContent>
+    </Card>
   );
 }
