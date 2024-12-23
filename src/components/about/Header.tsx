@@ -1,4 +1,5 @@
 import { pageSections } from "../../data";
+import { Button } from "../ui/button";
 
 export function NavigationHearder() {
   const scrollToElementById = (scrollId?: string) => {
@@ -11,14 +12,15 @@ export function NavigationHearder() {
   };
 
   return (
-    <section className="flex flex-row gap-4">
+    <section className="flex flex-row gap-2">
       {pageSections.map((section) => (
-        <button
-          className="cursor-pointer"
+        <Button
+          variant={"ghost"}
+          className="underline"
           onClick={() => scrollToElementById(section.scrollId)}
         >
           {section.title}
-        </button>
+        </Button>
       ))}
     </section>
   );
