@@ -12,11 +12,11 @@ export default function App() {
       <div className="flex justify-end">
         <NavigationHearder />
       </div>
-      <div className="grid grid-cols-6">
-        <div className="col-span-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-6">
+        <div className="md:col-span-2">
           <About />
         </div>
-        <div className="col-span-4">
+        <div className="md:col-span-4">
           <Skills />
         </div>
       </div>

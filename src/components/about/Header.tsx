@@ -12,7 +12,7 @@ export function NavigationHearder() {
   };
 
   return (
-    <section className="flex flex-row gap-2">
+    <section className="flex flex-row flex-wrap gap-2">
       {pageSections.map((section) => (
         <Button
           variant={"ghost"}

@@ -4,8 +4,8 @@ import profileImage from "@/assets/20240516_090002.jpg"
 
 export function About() {
   return (
-    <div className="">
-      <Avatar className="w-72 h-[400px] rounded-md">
+    <div className="space-y-2">
+      <Avatar className="w-full md:w-72 h-[400px] rounded-md">
         <AvatarImage src={profileImage} alt="@km" />
         <AvatarFallback className="rounded-md">KM</AvatarFallback>
       </Avatar>

@@ -15,7 +15,7 @@ export function ExperienceCard({ experience }: Prop) {
     <Accordion type="single" collapsible className="">
       <AccordionItem value={experience.company}>
         <AccordionTrigger className="flex flex-col">
-          <div className="flex flex-row justify-between w-full gap-5">
+          <div className="flex flex-row items-start justify-between w-full gap-5">
             <div className="font-semibold">{experience.title}</div>
             <div className="text-sm">
               {experience.duration.startDate} - {experience.duration.endDate}
