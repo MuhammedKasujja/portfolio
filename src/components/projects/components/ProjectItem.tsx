@@ -1,4 +1,4 @@
-import { IProject } from "../../../types";
+import { IProject } from "@/types";
 import {
   Card,
   CardContent,

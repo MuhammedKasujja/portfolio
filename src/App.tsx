@@ -7,7 +7,7 @@ import { Skills } from "./components/skills";
 export default function App() {
   // max-w-7xl m-auto
   return (
-    <div className="container flex flex-col justify-center gap-5 px-10 py-6">
+    <div className="container flex flex-col justify-center gap-5 px-10 py-8">
       <About />
       <Skills/>
       <Experience />

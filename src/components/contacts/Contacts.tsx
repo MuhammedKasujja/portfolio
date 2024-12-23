@@ -1,5 +1,5 @@
 import { contactsInfo } from "../../data";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -7,10 +7,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "../ui/card";
-import { Input } from "../ui/input";
-import { Label } from "../ui/label";
-import { Textarea } from "../ui/textarea";
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
 
 export function Contacts() {
   return (
@@ -24,7 +24,7 @@ export function Contacts() {
       <CardContent className="space-y-4">
         <div className="space-y-1">
           <Label htmlFor="email">Email</Label>
-          <Input id="email" placeholder="Your email"></Input>
+          <Input id="email" placeholder="Your email" type="email"></Input>
         </div>
         <div className="space-y-1">
           <Label htmlFor="message">Message</Label>
