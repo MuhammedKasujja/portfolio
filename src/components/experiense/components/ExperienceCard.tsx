@@ -1,3 +1,9 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { IExperience } from "../../../types";
 
 type Prop = {
@@ -6,18 +12,22 @@ type Prop = {
 
 export function ExperienceCard({ experience }: Prop) {
   return (
-    <div className="p-4 space-y-2 rounded-md" >
-      <div className="flex flex-row justify-between gap-5">
-        <div className="font-semibold">{experience.title}</div>
-        <div className="text-sm">
-          {experience.duration.startDate} - {experience.duration.endDate}
-        </div>
-      </div>
-      <div className="flex flex-row items-baseline justify-between gap-5">
-        <div>{experience.company}</div>
-        <div>{experience.location}</div>
-      </div>
-      <div>{experience.description}</div>
-    </div>
+    <Accordion type="single" collapsible className="">
+      <AccordionItem value={experience.company}>
+        <AccordionTrigger className="flex flex-col">
+          <div className="flex flex-row justify-between w-full gap-5">
+            <div className="font-semibold">{experience.title}</div>
+            <div className="text-sm">
+              {experience.duration.startDate} - {experience.duration.endDate}
+            </div>
+          </div>
+          <div className="flex flex-row items-baseline justify-between w-full gap-5">
+            <div>{experience.company}</div>
+            <div>{experience.location}</div>
+          </div>
+        </AccordionTrigger>
+        <AccordionContent>{experience.description}</AccordionContent>
+      </AccordionItem>
+    </Accordion>
   );
 }
