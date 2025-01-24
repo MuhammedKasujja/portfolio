@@ -307,8 +307,8 @@ export const projects: IProject[] = [
   },
   {
     id: "13",
-    name: "GitHub Theme Portfolio",
-    url: "https://github.com/harikanani/harikanani.github.io",
+    name: "GitHub Portfolio",
+    url: "https://muhammedkasujja.github.io/portfolio/",
     description:
       "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
     languages: [

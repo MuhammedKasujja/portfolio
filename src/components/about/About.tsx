@@ -11,7 +11,7 @@ export function About() {
       </Avatar>
       <h1 className="text-3xl font-bold">{greeting.fullName}</h1>
       <a href={greeting.githubLink} target="_blank" className="flex justify-center">
-        {greeting.nickname}
+        {greeting.subTitle}
       </a>
     </div>
   );
