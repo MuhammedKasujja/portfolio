@@ -37,7 +37,7 @@ export const experience = {
             startDate: "Jan 2024",
             endDate: "May 2024",
           },
-          location: "India",
+          location: "India, Remote",
           description: `Worked on enterprise-level software solutions including employee
     activity tracking system, point of sale system and support ticket
     systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across

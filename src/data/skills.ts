@@ -4,7 +4,7 @@ export const skills = {
     fileName: "FullStackImg",
     skills: [
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-      "⚡ Building responsive website front end using ReactJS",
+      "⚡ Building responsive front end web apps using ReactJS and VueJS with Typescript",
       "⚡ Developing mobile applications using Kotlin and Flutter",
       "⚡ Creating backend applications in Node, Express & Laravel",
       "⚡ Integration of third party services such as Firebase/ Microsoft Azure / Digital Ocean",
@@ -103,6 +103,27 @@ export const skills = {
           color: "#1572B6",
         },
       },
+      {
+        name: "VueJS",
+        fontAwesomeClassname: "simple-icons:tailwind",
+        style: {
+          color: "#1572B6",
+        },
+      },
+      {
+        name: "NestJS",
+        fontAwesomeClassname: "simple-icons:tailwind",
+        style: {
+          color: "#1572B6",
+        },
+      },
+      {
+        name: "PHP",
+        fontAwesomeClassname: "simple-icons:tailwind",
+        style: {
+          color: "#1572B6",
+        },
+      },
     ],
   },
   cloud: {
@@ -110,8 +131,8 @@ export const skills = {
     fileName: "CloudInfraImg",
     skills: [
       "⚡ Experience working on multiple cloud platforms",
-      "⚡ Experience hosting and managing websites",
-      "⚡ Experience with Continuous Integration",
+      "⚡ Experience deploying and managing systems",
+      "⚡ Experience with Continuous Integration with Github pages, Firebase and Digital Ocean",
     ],
     services: [
       {

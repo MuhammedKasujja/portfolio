@@ -1,4 +1,5 @@
 import { skills } from "../../data";
+import { Badge } from "../ui/badge";
 
 export function Cloud() {
   return (
@@ -11,12 +12,12 @@ export function Cloud() {
       </div>
       <div className="flex flex-row gap-4 flex-wrap">
         {skills.cloud.services.map((service) => (
-          <div
-            className="p-2 rounded text-white"
-            style={{ background: service.style.color }}
+          <Badge
+            className="rounded py-1.5"
+            // style={{ background: item.style.color }}
           >
             {service.name}
-          </div>
+          </Badge>
         ))}
       </div>
     </div>

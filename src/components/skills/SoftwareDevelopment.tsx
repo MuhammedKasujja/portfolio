@@ -1,4 +1,5 @@
 import { skills } from "../../data";
+import { Badge } from "../ui/badge";
 
 export function SoftwareDevelopment() {
   return (
@@ -11,12 +12,11 @@ export function SoftwareDevelopment() {
       </div>
       <div className="flex flex-row gap-4 flex-wrap">
         {skills.develpoment.softwareSkills.map((item) => (
-          <div
-            className="p-2 rounded text-white min-w-14 flex justify-center"
-            style={{ background: item.style.color }}
+          <Badge className="rounded py-1.5 min-w-8"
+            // style={{ background: item.style.color }}
           >
             {item.name}
-          </div>
+          </Badge>
         ))}
       </div>
     </div>
