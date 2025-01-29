@@ -24,6 +24,7 @@
     "react-hook-form": "^7.54.2",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-motion": "^1.0.1",
     "vite-plugin-gh-pages": "^1.0.0",
     "zod": "^3.24.1"
   },
