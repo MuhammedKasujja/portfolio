@@ -12,7 +12,7 @@ type Prop = {
 
 export function ExperienceCard({ experience }: Prop) {
   return (
-    <Card className="w-full">
+    <Card className="w-full dark:bg-gray-800">
       <CardHeader>
         <CardTitle>
           <div className="flex flex-col w-full gap-2 pr-5 space-y-2">
