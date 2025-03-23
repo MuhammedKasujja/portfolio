@@ -18,12 +18,11 @@ export const experience = {
             endDate: "Present",
           },
           location: "Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+          description: `Worked on enterprise-level software solutions including Medical management systems with appointment module, Transportation Management system  and Fintech 
+          solutions, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
     multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
+    with modern technologies like Laravel PHP, React.js, Vue.js, Typescript with
+    Postgress/ MySQL. Designed and implemented custom solutions for tracking employee
     activity and database optimizations, resulting in improvement in
     performance.`,
           bgColor: "#0071C5",
@@ -38,14 +37,9 @@ export const experience = {
             endDate: "May 2024",
           },
           location: "India, Remote",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Developed and maintained enterprise applications using Node.js with firebase and
+          mobile apps using Flutter. Optimized database queries, 
+          reducing execution time by 50%. Collaborated with cross-functional teams to enhance UI/UX and improve customer experience.`,
           bgColor: "#0071C5",
         },
         {
@@ -74,14 +68,9 @@ export const experience = {
             endDate: "Feb 2020",
           },
           location: "Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Developed and maintained enterprise applications using Python Django and React.js.
+              Optimized database queries, reducing execution time by 50%. Collaborated
+              with cross-functional teams to enhance UI/UX and improve customer experience.`,
           bgColor: "#0071C5",
         },
         {
@@ -94,14 +83,10 @@ export const experience = {
             endDate: "Jun 2019",
           },
           location: "Mengo, Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+          description: `Worked on enterprise-level software solutions including school
+    management system, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
     multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+    with modern technologies like Oracle Apex, and Flutter.`,
           bgColor: "#0071C5",
         },
       ],
