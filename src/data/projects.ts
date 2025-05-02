@@ -35,16 +35,6 @@ export const projects: IProject[] = [
         url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
         iconifyClass: "ri:github-fill",
       },
-      {
-        name: "Devpost",
-        url: "https://devpost.com/software/keep-calm-and-carry-on",
-        iconifyClass: "fluent:window-dev-edit-20-filled",
-      },
-      {
-        name: "Live Demo",
-        url: "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
-        iconifyClass: "mdi:web",
-      },
     ],
   },
   {
@@ -63,14 +53,18 @@ export const projects: IProject[] = [
         iconifyClass: "logos-flutter",
       },
       {
-        name: "NodeJs",
-        iconifyClass: "logos-nodejs",
+        name: "Laravel",
+        iconifyClass: "logos-laravel",
+      },
+      {
+        name: "ReactJS",
+        iconifyClass: "logos-reactjs",
       },
     ],
     links: [
       {
         name: "Github",
-        url: "https://github.com/kevalvavaliya/Yog4Life",
+        url: "https://github.com/muhammedkasujja/smartrides-be/",
         iconifyClass: "ri:github-fill",
       },
       {
@@ -84,8 +78,9 @@ export const projects: IProject[] = [
     id: "2",
     name: "Lenderly",
     url: "https://github.com/kevalvavaliya/Adoptisity",
-    description:
-      "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
+    description: `Created a full-featured project management tool with task tracking, 
+      user roles, and a Kanban board. Implemented role-based access control 
+      and real-time collaboration features, increasing team efficiency.`,
     languages: [
       {
         name: "HTML5",
@@ -188,8 +183,9 @@ export const projects: IProject[] = [
     id: "5",
     name: "AutoDoc",
     url: "https://github.com/harikanani/e-commerce-frontend",
-    description:
-      "An E-commerce website built using MERN[Mongo, Express, React, Node] stack and we have also added stripe payment gateway integration [in test mode].",
+    description: `Developed a highly scalable e-commerce platform with secure authentication, 
+      product catalog management, and Stripe-integrated payments. Implemented a 
+      responsive UI with optimized loading times, improving user experience and conversion rates.`,
     languages: [
       {
         name: "ReactJS",

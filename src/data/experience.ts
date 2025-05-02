@@ -18,7 +18,7 @@ export const experience = {
             endDate: "Present",
           },
           location: "Kampala, Uganda",
-          description: `Led development of scalable frontend and backend systems in a 25-person agile engineering team.
+          description: `Worked on enterprise-level scalable frontend and backend systems in a 25-person agile engineering team.
     Designed and implemented architecture patterns for microservices and frontend modules using TypeScript, React, and Laravel.
    Mentored team members and conducted regular code reviews to ensure high-quality code standards.
     Coordinated cross-team technical decisions and facilitated communication between developers, QA, and product managers.
@@ -67,10 +67,9 @@ export const experience = {
             endDate: "Feb 2020",
           },
           location: "Kampala, Uganda",
-          description: `Developed and maintained modular React applications using TypeScript and Redux.
-    Led mid-sized feature implementations from planning to deployment in agile teams.
-    Collaborated with design teams to implement pixel-perfect UI components.
-    Reviewed pull requests and mentored junior developers on TypeScript best practices.`,
+          description: `Developed and maintained enterprise applications using Python Django and React.js.
+              Optimized database queries, reducing execution time by 50%. Collaborated
+              with cross-functional teams to enhance UI/UX and improve customer experience.`,
           bgColor: "#0071C5",
         },
         {

@@ -132,18 +132,11 @@ export const skills = {
     skills: [
       "⚡ Experience working on multiple cloud platforms",
       "⚡ Experience deploying and managing systems",
-      "⚡ Experience with Continuous Integration with Github pages, Firebase and Digital Ocean",
+      "⚡ Experience with Continuous Integration with Microsoft Azure, Github pages, Firebase and Digital Ocean",
     ],
     services: [
       {
-        name: "Azure",
-        fontAwesomeClassname: "simple-icons:azure",
-        style: {
-          color: "#FF9900",
-        },
-      },
-      {
-        name: "Heroku",
+        name: "Microsoft Azure",
         fontAwesomeClassname: "simple-icons:heroku",
         style: {
           color: "#6863A6",

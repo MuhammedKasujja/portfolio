@@ -1,9 +1,9 @@
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { IExperience } from "../../../types";
 
 type Prop = {
@@ -12,10 +12,10 @@ type Prop = {
 
 export function ExperienceCard({ experience }: Prop) {
   return (
-    <Accordion type="single" collapsible className="">
-      <AccordionItem value={experience.company}>
-        <AccordionTrigger>
-          <div className="flex flex-col w-full gap-2 pr-5">
+    <Card className="w-full dark:bg-gray-800">
+      <CardHeader>
+        <CardTitle>
+          <div className="flex flex-col w-full gap-2 pr-5 space-y-2">
             <div className="flex flex-row items-start justify-between w-full gap-2 md:gap-5">
               <div className="font-semibold">{experience.title}</div>
               <div className="text-sm">
@@ -23,13 +23,15 @@ export function ExperienceCard({ experience }: Prop) {
               </div>
             </div>
             <div className="flex flex-row items-baseline justify-between w-full gap-2 md:gap-5">
-              <div>{experience.company}</div>
-              <div>{experience.location}</div>
+              <div className="text-sm">{experience.company}</div>
+              <div className="text-sm">{experience.location}</div>
             </div>
           </div>
-        </AccordionTrigger>
-        <AccordionContent>{experience.description}</AccordionContent>
-      </AccordionItem>
-    </Accordion>
+        </CardTitle>
+        <CardDescription className="space-y-2">
+          <div className="pr-5">{experience.description}</div>
+        </CardDescription>
+      </CardHeader>
+    </Card>
   );
 }
