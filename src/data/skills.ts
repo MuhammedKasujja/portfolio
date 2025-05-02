@@ -3,10 +3,10 @@ export const skills = {
     title: "Full Stack Development",
     fileName: "FullStackImg",
     skills: [
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+      "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
       "⚡ Building responsive front end web apps using ReactJS and VueJS with Typescript",
       "⚡ Developing mobile applications using Kotlin and Flutter",
-      "⚡ Creating backend applications in Node, Express & Laravel",
+      "⚡ Creating backend applications in Node, Express, Nextjs & Laravel",
       "⚡ Integration of third party services such as Firebase/ Microsoft Azure / Digital Ocean",
     ],
     softwareSkills: [
