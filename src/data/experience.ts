@@ -19,10 +19,10 @@ export const experience = {
           },
           location: "Kampala, Uganda",
           description: `Worked on enterprise-level scalable frontend and backend systems in a 25-person agile engineering team.
-    Designed and implemented architecture patterns for microservices and frontend modules using TypeScript, React, and Laravel.
+    Designed and implemented architecture patterns for microservices and frontend modules using TypeScript, Vuejs, and Laravel.
    Mentored team members and conducted regular code reviews to ensure high-quality code standards.
     Coordinated cross-team technical decisions and facilitated communication between developers, QA, and product managers.
-    Played a key role in migrating legacy monolith systems to modular, cloud-native services.`,
+    Played a key role in migrating legacy monolith systems to modular-submodule services.`,
           bgColor: "#0071C5",
         },
         {
@@ -54,7 +54,6 @@ export const experience = {
           description: `Maintain close contact with the client and team when handling change requests.
               LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
               `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           bgColor: "#ee3c26",
         },
         {

@@ -1,4 +1,3 @@
-import { Linkedin } from "lucide-react";
 import { contactsInfo } from "../../data";
 import { Card, CardContent } from "@/components/ui/card";
 export function Contacts() {
@@ -7,7 +6,7 @@ export function Contacts() {
       {/* <CardHeader>
         <CardTitle>Let's Connect</CardTitle>
       </CardHeader> */}
-      <CardContent className="space-y-4">
+      <CardContent className="p-8 text-center space-y-3">
         {/* <div className="space-y-1">
           <Label htmlFor="email">Email</Label>
           <Input id="email" placeholder="Your email" type="email"></Input>
@@ -16,7 +15,6 @@ export function Contacts() {
           <Label htmlFor="message">Message</Label>
           <Textarea id="message" placeholder="Your email"></Textarea>
         </div> */}
-        <section id="contact" className="p-8 bg-white text-center space-y-3">
           <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
           <p className="flex items-center justify-center gap-2">
             Email:
@@ -64,7 +62,6 @@ export function Contacts() {
               </svg>
             </a>
           </p>
-        </section>
       </CardContent>
     </Card>
   );
