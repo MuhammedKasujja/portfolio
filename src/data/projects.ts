@@ -12,8 +12,9 @@ export const projects: IProject[] = [
     id: "0",
     name: "Metadent",
     url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
-    description:
-      "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
+    description: `Built a full-featured dental clinic management system to handle appointments, patient records, billing, and inventory in a team of 25 developers.
+      Used Vuejs and Tailwind CSS for the frontend, Laravel PHP for backend APIs, and MySQL for data storage.
+      Integrated permission-based access control for dentists, assistants, and administrators`,
     languages: [
       {
         name: "HTML5",
@@ -51,7 +52,11 @@ export const projects: IProject[] = [
     name: "Smartrides",
     url: "https://github.com/kevalvavaliya/Yog4Life",
     description:
-      "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
+    `Developed a real-time ride-hailing app using Flutter for the frontend and Laravel for backend services and APIs.
+    Implemented geolocation tracking, ride status updates, and driver-rider communication features.
+    Built a secure Laravel-based admin dashboard to manage rides, users, payments, and service areas.
+    Integrated Google Maps APIs for route plotting, distance calculation, and ETA estimation.
+    Handled multi-role authentication, wallet system, and ride history management for both drivers and passengers.`,
     languages: [
       {
         name: "Flutter",
@@ -212,18 +217,21 @@ export const projects: IProject[] = [
     name: "Pro AIConnect",
     url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
     description:
-      "Awesome Community Portfolio website for Bauddhik-Geeks community",
+      `Built a smart matchmaking app in Flutter with AI-powered profile recommendations and natural language chat prompts.
+    Designed swipe-based UI, secure authentication, and in-app messaging features with Firebase and Firestore.
+    Implemented push notifications, real-time chat updates, and block/report features for user safety.
+    `,
     languages: [
       {
-        name: "HTML5",
+        name: "Flutter",
         iconifyClass: "vscode-icons:file-type-html",
       },
       {
-        name: "CSS3",
+        name: "Tailwind",
         iconifyClass: "vscode-icons:file-type-css",
       },
       {
-        name: "JavaScript",
+        name: "Typescript",
         iconifyClass: "logos-javascript",
       },
     ],
@@ -245,7 +253,9 @@ export const projects: IProject[] = [
     name: "Offline-Sync Module",
     url: "https://github.com/abhigoyani/votechain",
     description:
-      "Awesome Community Portfolio website for Bauddhik-Geeks community",
+      `Developed an offline-first module using Laravel and IndexedDB to enable data collection without internet connectivity.
+    Optimized API responses and reduced payload size for performance on low-bandwidth networks.
+   Used Laravel queues and jobs to handle background sync and ensure reliable data persistence.`,
     languages: [
       {
         name: "Flask",
@@ -280,8 +290,9 @@ export const projects: IProject[] = [
     id: "8",
     name: "Inputi",
     url: "https://github.com/rajmahadev8/Fin-Split",
-    description:
-      "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
+    description: `Developed a cross-platform mobile application using Flutter to simplify ordering of seeds, fertilizers, and tools for farmers.
+   Integrated Firebase for authentication, real-time data storage, and push notifications.
+   Implemented offline support and local caching for low-connectivity regions.`,
     languages: [
       {
         name: "ReactJS",

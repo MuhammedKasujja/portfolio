@@ -18,14 +18,11 @@ export const experience = {
             endDate: "Present",
           },
           location: "Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Led development of scalable frontend and backend systems in a 25-person agile engineering team.
+    Designed and implemented architecture patterns for microservices and frontend modules using TypeScript, React, and Laravel.
+   Mentored team members and conducted regular code reviews to ensure high-quality code standards.
+    Coordinated cross-team technical decisions and facilitated communication between developers, QA, and product managers.
+    Played a key role in migrating legacy monolith systems to modular, cloud-native services.`,
           bgColor: "#0071C5",
         },
         {
@@ -38,14 +35,10 @@ export const experience = {
             endDate: "May 2024",
           },
           location: "India, Remote",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Rewrote large-scale JavaScript codebase to TypeScript to improve type safety and maintainability.
+          Identified and resolved over 150 potential runtime errors during migration using static type analysis.
+          Introduced shared types and interfaces to standardize API integration across frontend modules.
+          Improved developer experience with better IntelliSense and reduced debugging time.`,
           bgColor: "#0071C5",
         },
         {
@@ -74,14 +67,10 @@ export const experience = {
             endDate: "Feb 2020",
           },
           location: "Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Developed and maintained modular React applications using TypeScript and Redux.
+    Led mid-sized feature implementations from planning to deployment in agile teams.
+    Collaborated with design teams to implement pixel-perfect UI components.
+    Reviewed pull requests and mentored junior developers on TypeScript best practices.`,
           bgColor: "#0071C5",
         },
         {
@@ -94,14 +83,10 @@ export const experience = {
             endDate: "Jun 2019",
           },
           location: "Mengo, Kampala, Uganda",
-          description: `Worked on enterprise-level software solutions including employee
-    activity tracking system, point of sale system and support ticket
-    systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
-    multiple projects by developing and maintaining full-stack web apps
-    with modern technologies like Electron.js, React.js, Node.js, and
-    Sequelize. Designed and implemented custom solutions for tracking employee
-    activity and database optimizations, resulting in improvement in
-    performance.`,
+          description: `Assisted in building and maintaining React components for internal tools.
+    Wrote unit tests with Jest and helped achieve over 80% test coverage.
+    Collaborated with senior developers during code reviews and agile sprint planning.
+   Participated in migrating legacy CSS to modern utility-first styling with Bootstrap 4.`,
           bgColor: "#0071C5",
         },
       ],

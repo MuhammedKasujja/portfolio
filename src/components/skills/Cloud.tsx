@@ -10,6 +10,7 @@ export function Cloud() {
           <p>{skill}</p>
         ))}
       </div>
+      <div className="text-sm">Tools & Platforms:</div>
       <div className="flex flex-row gap-4 flex-wrap">
         {skills.cloud.services.map((service) => (
           <Badge
