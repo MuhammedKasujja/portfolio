@@ -11,10 +11,10 @@ export default function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="container flex flex-col justify-center gap-5 px-10 py-8 space-y-5">
-        <div className="flex justify-end">
+        <div className="flex justify-center md:justify-end">
           <NavigationHearder />
         </div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-6">
+        <div className="grid grid-cols-1 gap-5 md:gap-10 md:grid-cols-6">
           <div className="flex justify-center md:col-span-2">
             <About />
           </div>

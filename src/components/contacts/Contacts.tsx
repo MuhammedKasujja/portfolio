@@ -14,7 +14,7 @@ export function Contacts() {
             {contactsInfo.email}
           </a>
         </p>
-        <p className="flex items-center justify-center gap-2">
+        <p className="flex items-center justify-center gap-4">
           <a href={contactsInfo.linkedin} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
