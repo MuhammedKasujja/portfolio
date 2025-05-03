@@ -21,11 +21,11 @@ export const projects: IProject[] = [
         iconifyClass: "logos-html-5",
       },
       {
-        name: "CSS3",
+        name: "Tailwind CSS",
         iconifyClass: "logos-css-3",
       },
       {
-        name: "NodeJs",
+        name: "VueJS",
         iconifyClass: "logos-nodejs",
       },
     ],
@@ -41,8 +41,7 @@ export const projects: IProject[] = [
     id: "1",
     name: "Smartrides",
     url: "https://github.com/kevalvavaliya/Yog4Life",
-    description:
-    `Developed a real-time ride-hailing app using Flutter for the frontend and Laravel for backend services and APIs.
+    description: `Developed a real-time ride-hailing app using Flutter for the frontend and Laravel for backend services and APIs.
     Implemented geolocation tracking, ride status updates, and driver-rider communication features.
     Built a secure Laravel-based admin dashboard to manage rides, users, payments, and service areas.
     Integrated Google Maps APIs for route plotting, distance calculation, and ETA estimation.
@@ -78,9 +77,11 @@ export const projects: IProject[] = [
     id: "2",
     name: "Lenderly",
     url: "https://github.com/kevalvavaliya/Adoptisity",
-    description: `Created a full-featured project management tool with task tracking, 
-      user roles, and a Kanban board. Implemented role-based access control 
-      and real-time collaboration features, increasing team efficiency.`,
+    description: `Built a mobile-first lending platform for the Philippine market using Flutter and Firebase.
+    Enabled users to apply for loans, track repayment schedules.
+    Integrated SMS verification, secure login, and real-time loan status updates.
+    Supported both English and Filipino languages to ensure accessibility across regions.
+      `,
     languages: [
       {
         name: "HTML5",
@@ -105,24 +106,15 @@ export const projects: IProject[] = [
         url: "https://github.com/harikanani/Adoptisity",
         iconifyClass: "ri:github-fill",
       },
-      {
-        name: "Devpost",
-        url: "https://devpost.com/software/adoptisity",
-        iconifyClass: "fluent:window-dev-edit-20-filled",
-      },
-      {
-        name: "Live Demo",
-        url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-        iconifyClass: "mdi:web",
-      },
     ],
   },
   {
     id: "3",
     name: "Kaltech Stores",
     url: "https://github.com/rajmahadev8/Fin-Split",
-    description:
-      "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
+    description: `Built a mobile app to manage product inventory and generate invoices for field and warehouse operations.
+Implemented offline-first functionality with Laravel-based background syncing to handle stock updates and sales in real time.
+Integrated barcode scanning, item tracking, invoice generation, and customer management within a single workflow.`,
     languages: [
       {
         name: "ReactJS",
@@ -139,19 +131,17 @@ export const projects: IProject[] = [
         url: "https://github.com/rajmahadev8/Fin-Split",
         iconifyClass: "ri:github-fill",
       },
-      {
-        name: "Devpost",
-        url: "https://devpost.com/software/finsplit",
-        iconifyClass: "fluent:window-dev-edit-20-filled",
-      },
     ],
   },
   {
     id: "4",
     name: "FundsTrans",
     url: "https://github.com/kevalvavaliya/Emosic",
-    description:
-      "An app that plays music according to your mood. Created a playlist management UI and used SpotifyAPI to control player client based on mood detection using ml model.",
+    description: `Developed a secure and user-friendly Flutter app for international and local money transfers.
+    Integrated KYC verification, beneficiary management, and transaction history tracking.
+    Implemented multiple payment channels including mobile wallets and bank transfers.
+    Used Laravel to build scalable APIs and an admin dashboard for transaction monitoring and compliance.
+      `,
     languages: [
       {
         name: "HTML5",
@@ -171,11 +161,6 @@ export const projects: IProject[] = [
         name: "Github",
         url: "https://github.com/kevalvavaliya/Emosic",
         iconifyClass: "ri:github-fill",
-      },
-      {
-        name: "Devpost",
-        url: "https://devpost.com/software/emosic",
-        iconifyClass: "fluent:window-dev-edit-20-filled",
       },
     ],
   },
@@ -212,8 +197,7 @@ export const projects: IProject[] = [
     id: "6",
     name: "Pro AIConnect",
     url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-    description:
-      `Built a smart matchmaking app in Flutter with AI-powered profile recommendations and natural language chat prompts.
+    description: `Built a smart matchmaking app in Flutter with AI-powered profile recommendations and natural language chat prompts.
     Designed swipe-based UI, secure authentication, and in-app messaging features with Firebase and Firestore.
     Implemented push notifications, real-time chat updates, and block/report features for user safety.
     `,
@@ -237,30 +221,16 @@ export const projects: IProject[] = [
         url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
         iconifyClass: "ri:github-fill",
       },
-      {
-        name: "Live Demo",
-        url: "https://bauddhikgeeks.co/",
-        iconifyClass: "mdi:web",
-      },
     ],
   },
   {
     id: "7",
     name: "Offline-Sync Module",
     url: "https://github.com/abhigoyani/votechain",
-    description:
-      `Developed an offline-first module using Laravel and IndexedDB to enable data collection without internet connectivity.
+    description: `Developed an offline-first module using Laravel and IndexedDB to enable data collection without internet connectivity.
     Optimized API responses and reduced payload size for performance on low-bandwidth networks.
    Used Laravel queues and jobs to handle background sync and ensure reliable data persistence.`,
     languages: [
-      {
-        name: "Flask",
-        iconifyClass: "logos-flask",
-      },
-      {
-        name: "Python",
-        iconifyClass: "logos-python",
-      },
       {
         name: "HTML5",
         iconifyClass: "logos-html-5",
@@ -270,7 +240,7 @@ export const projects: IProject[] = [
         iconifyClass: "logos-css-3",
       },
       {
-        name: "MongoDB",
+        name: "MySQL",
         iconifyClass: "logos-mongodb-icon",
       },
     ],
@@ -305,11 +275,6 @@ export const projects: IProject[] = [
         url: "https://github.com/rajmahadev8/Fin-Split",
         iconifyClass: "ri:github-fill",
       },
-      {
-        name: "Devpost",
-        url: "https://devpost.com/software/finsplit",
-        iconifyClass: "fluent:window-dev-edit-20-filled",
-      },
     ],
   },
   {
@@ -337,11 +302,6 @@ export const projects: IProject[] = [
         name: "Github",
         url: "https://github.com/harikanani/harikanani.github.io",
         iconifyClass: "ri:github-fill",
-      },
-      {
-        name: "Live Demo",
-        url: "https://harikanani.github.io/",
-        iconifyClass: "mdi:web",
       },
     ],
   },
