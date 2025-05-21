@@ -16,14 +16,20 @@ export function NavigationHearder() {
     <section className="flex flex-row flex-wrap gap-2">
       {pageSections.map((section) => (
         <Button
+          key={section.title}
+          asChild={section.link !== undefined}
           variant={"ghost"}
           className="underline"
           onClick={() => scrollToElementById(section.scrollId)}
         >
-          {section.title}
+          {section.link !== undefined ? (
+            <a href={section.link} download target="_blank">{section.title}</a>
+          ) : (
+            section.title
+          )}
         </Button>
       ))}
-      <ThemeToggle/>
+      <ThemeToggle />
     </section>
   );
 }

@@ -19,7 +19,7 @@ export const greeting = {
   subTitle: "Full Stack Developer",
   githubLink: "https://github.com/MuhammedKasujja",
   resumeLink:
-    "https://drive.google.com/file/d/1NQugCN-EtZs3haRtbgFGxgSaF5Xr8SzA/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Di-RPP51uycZRGXJzlsQdLAsdChEUQog/view?usp=drive_link",
   mail: "al.kasmud.2@gmail.com",
   linkedinLink: "https://www.linkedin.com/in/muhammed-kasujja-79290221a/",
   contactDetails,
