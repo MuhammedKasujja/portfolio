@@ -32,6 +32,10 @@ export const projects: IProject[] = [
         name: "VueJS",
         iconifyClass: "logos-nodejs",
       },
+      {
+        name: "Typescript",
+        iconifyClass: "logos-javascript",
+      },
     ],
     links: [
       {
@@ -293,7 +297,7 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
       "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
     languages: [
       {
-        name: "JavaScript",
+        name: "Typescript",
         iconifyClass: "logos-javascript",
       },
       {
