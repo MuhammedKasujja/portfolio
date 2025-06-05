@@ -16,7 +16,7 @@ export const greeting = {
   nickname: "muhammed / kasujja",
   fullName: "Kasujja Muhammed",
   // subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  subTitle: "Full Stack Developer",
+  subTitle: "Full Stack Developer | 9+ Years Experience",
   githubLink: "https://github.com/MuhammedKasujja",
   resumeLink:
     "https://drive.google.com/file/d/1Di-RPP51uycZRGXJzlsQdLAsdChEUQog/view?usp=drive_link",
@@ -24,6 +24,6 @@ export const greeting = {
   linkedinLink: "https://www.linkedin.com/in/muhammed-kasujja-79290221a/",
   contactDetails,
   about: `
-  I'm Kasujja Muhammed, a Full Stack Developer with 9 years experience skilled in building responsive web and mobile applications using modern tools like ReactJS, VueJS, Flutter, Kotlin, Node.js, NextJS, and Laravel. I also have experience with cloud platforms (Azure, Firebase, DigitalOcean), CI/CD workflows, and both SQL and NoSQL databases. I'm passionate about solving real-world problems with clean, scalable code and continuously learning new technologies.
+  I am a Full Stack Developer with over 9 years experience skilled in building responsive web and mobile applications using modern tools like ReactJS, VueJS, Flutter, Kotlin, Node.js, NextJS, and Laravel. I also have experience with cloud platforms (Azure, Firebase, DigitalOcean), CI/CD workflows, and both SQL and NoSQL databases. I'm passionate about solving real-world problems with clean, scalable code and continuously learning new technologies.
   `,
 } as const;

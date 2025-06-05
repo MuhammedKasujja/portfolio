@@ -17,8 +17,12 @@ export const projects: IProject[] = [
       Integrated permission-based access control for dentists, assistants, and administrators`,
     languages: [
       {
-        name: "HTML5",
+        name: "Laravel",
         iconifyClass: "logos-html-5",
+      },
+      {
+        name: "Microservices",
+        iconifyClass: "logos-nodejs",
       },
       {
         name: "Tailwind CSS",
@@ -48,16 +52,16 @@ export const projects: IProject[] = [
     Handled multi-role authentication, wallet system, and ride history management for both drivers and passengers.`,
     languages: [
       {
-        name: "Flutter",
-        iconifyClass: "logos-flutter",
-      },
-      {
-        name: "Laravel",
+        name: "Nodejs / Nestjs",
         iconifyClass: "logos-laravel",
       },
       {
         name: "ReactJS",
         iconifyClass: "logos-reactjs",
+      },
+      {
+        name: "Flutter / Dart",
+        iconifyClass: "logos-flutter",
       },
     ],
     links: [
@@ -84,20 +88,16 @@ export const projects: IProject[] = [
       `,
     languages: [
       {
-        name: "HTML5",
+        name: "Flutter",
         iconifyClass: "logos-html-5",
       },
       {
-        name: "CSS3",
+        name: "Laravel",
         iconifyClass: "logos-css-3",
       },
       {
-        name: "JavaScript",
+        name: "Vuejs",
         iconifyClass: "logos-javascript",
-      },
-      {
-        name: "Wix",
-        iconifyClass: "bxl:wix",
       },
     ],
     links: [
@@ -114,14 +114,18 @@ export const projects: IProject[] = [
     url: "https://github.com/rajmahadev8/Fin-Split",
     description: `Built a mobile app to manage product inventory and generate invoices for field and warehouse operations.
 Implemented offline-first functionality with Laravel-based background syncing to handle stock updates and sales in real time.
-Integrated barcode scanning, item tracking, invoice generation, and customer management within a single workflow.`,
+Integrated barcode scanning, item tracking, invoice generation, and customer management within a single workflow. Backed with a NextJS admin pannel`,
     languages: [
       {
-        name: "ReactJS",
-        iconifyClass: "logos-react",
+        name: "Flutter / Dart",
+        iconifyClass: "logos-flutter",
       },
       {
-        name: "NodeJs",
+        name: "NextJS",
+        iconifyClass: "logos-nodejs",
+      },
+      {
+        name: "Reactjs",
         iconifyClass: "logos-nodejs",
       },
     ],
@@ -144,16 +148,16 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
       `,
     languages: [
       {
-        name: "HTML5",
+        name: "Python",
+        iconifyClass: "logos-python",
+      },
+      {
+        name: "Reactjs",
         iconifyClass: "logos-html-5",
       },
       {
-        name: "CSS3",
+        name: "Tailwind CSS",
         iconifyClass: "logos-css-3",
-      },
-      {
-        name: "Python",
-        iconifyClass: "logos-python",
       },
     ],
     links: [
@@ -173,15 +177,15 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
       responsive UI with optimized loading times, improving user experience and conversion rates.`,
     languages: [
       {
-        name: "ReactJS",
+        name: "Python / Django",
         iconifyClass: "logos-react",
       },
       {
-        name: "NodeJS",
+        name: "React js",
         iconifyClass: "logos-nodejs",
       },
       {
-        name: "MedusaJS",
+        name: "Flutter / Dart",
         iconifyClass: "logos-medusa-icon",
       },
     ],
@@ -203,11 +207,15 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
     `,
     languages: [
       {
+        name: "Nodejs / NestJS",
+        iconifyClass: "logos-javascript",
+      },
+      {
         name: "Flutter",
         iconifyClass: "vscode-icons:file-type-html",
       },
       {
-        name: "Tailwind",
+        name: "Tailwind CSS",
         iconifyClass: "vscode-icons:file-type-css",
       },
       {
@@ -232,15 +240,19 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
    Used Laravel queues and jobs to handle background sync and ensure reliable data persistence.`,
     languages: [
       {
-        name: "HTML5",
+        name: "Laravel / PHP",
         iconifyClass: "logos-html-5",
       },
       {
-        name: "CSS3",
+        name: "ReactJS",
         iconifyClass: "logos-css-3",
       },
       {
-        name: "MySQL",
+        name: "Tailwind CSS",
+        iconifyClass: "logos-mongodb-icon",
+      },
+      {
+        name: "Shad CN",
         iconifyClass: "logos-mongodb-icon",
       },
     ],
@@ -261,12 +273,8 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
    Implemented offline support and local caching for low-connectivity regions.`,
     languages: [
       {
-        name: "ReactJS",
+        name: "Flutter / Dart",
         iconifyClass: "logos-react",
-      },
-      {
-        name: "NodeJs",
-        iconifyClass: "logos-nodejs",
       },
     ],
     links: [
@@ -285,16 +293,16 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
       "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
     languages: [
       {
-        name: "HTML5",
-        iconifyClass: "vscode-icons:file-type-html",
+        name: "JavaScript",
+        iconifyClass: "logos-javascript",
       },
       {
-        name: "CSS3",
+        name: "Tailwind CSS",
         iconifyClass: "vscode-icons:file-type-css",
       },
       {
-        name: "JavaScript",
-        iconifyClass: "logos-javascript",
+        name: "Shad CN",
+        iconifyClass: "vscode-icons:file-type-css",
       },
     ],
     links: [

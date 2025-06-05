@@ -6,7 +6,7 @@ export enum ExperienceType {
 
 export type ILanguage = {
   name: string;
-  iconifyClass: string;
+  iconifyClass?: string;
 };
 
 export type Link = {

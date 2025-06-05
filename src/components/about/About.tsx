@@ -4,7 +4,7 @@ import profileImage from "@/assets/20240516_090002.jpg";
 
 export function About() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-2 md:items-start">
+    <div className="flex flex-col items-center justify-center space-y-3 md:items-start">
       <Avatar className="w-72 h-[400px] rounded-md ">
         <AvatarImage src={profileImage} alt="@km" />
         <AvatarFallback className="rounded-md">KM</AvatarFallback>
@@ -13,7 +13,7 @@ export function About() {
       <a
         href={greeting.githubLink}
         target="_blank"
-        className="flex justify-center underline"
+        className="flex justify-center text-slate-500"
       >
         {greeting.subTitle}
       </a>
