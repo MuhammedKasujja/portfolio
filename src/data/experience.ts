@@ -48,7 +48,7 @@ export const experience = {
           logo_path: "nightowls.jpg",
           duration: {
             startDate: "Mar 2020",
-            endDate: "Present",
+            endDate: "Feb 2021",
           },
           location: "Work From Home",
           description: `Maintain close contact with the client and team when handling change requests.
