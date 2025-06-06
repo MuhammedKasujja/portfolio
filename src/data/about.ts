@@ -14,7 +14,7 @@ export const greeting = {
   title2: "Muhammed",
   logoName: "muhammed.k()",
   nickname: "muhammed / kasujja",
-  fullName: "Kasujja Muhammed",
+  fullName: "Muhammed Kasujja",
   // subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   subTitle: "Full Stack Developer | 9+ Years Experience",
   githubLink: "https://github.com/MuhammedKasujja",
