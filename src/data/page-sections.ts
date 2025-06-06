@@ -17,6 +17,6 @@ export const pageSections = [
   },
   {
     title: "CV",
-    link:'https://drive.google.com/file/d/1qshGdgszGzdFECMDJMkuB4gtZuAjBaQ2/view?usp=drive_link'
+    link:'https://drive.google.com/file/d/1zpG8jXwlRT7sOxMccTi-c5D3K-rAyj-p/view?usp=drive_link'
   },
 ];
