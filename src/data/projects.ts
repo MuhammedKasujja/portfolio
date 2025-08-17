@@ -237,7 +237,7 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
   },
   {
     id: "7",
-    name: "Offline Sync Package",
+    name: "Laravel Offline Sync Package",
     url: "https://github.com/MuhammedKasujja/laravel-offline-sync",
     description: `Developed an offline-first package using Laravel and IndexedDB to enable data collection without internet connectivity.
     Optimized API responses and reduced payload size for performance on low-bandwidth networks.
