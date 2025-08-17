@@ -237,9 +237,9 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
   },
   {
     id: "7",
-    name: "Offline-Sync Module",
-    url: "https://github.com/abhigoyani/votechain",
-    description: `Developed an offline-first module using Laravel and IndexedDB to enable data collection without internet connectivity.
+    name: "Offline Sync Package",
+    url: "https://github.com/MuhammedKasujja/laravel-offline-sync",
+    description: `Developed an offline-first package using Laravel and IndexedDB to enable data collection without internet connectivity.
     Optimized API responses and reduced payload size for performance on low-bandwidth networks.
    Used Laravel queues and jobs to handle background sync and ensure reliable data persistence.`,
     languages: [
@@ -271,7 +271,7 @@ Integrated barcode scanning, item tracking, invoice generation, and customer man
   {
     id: "8",
     name: "Inputi",
-    url: "https://github.com/rajmahadev8/Fin-Split",
+    url: undefined,
     description: `Developed a cross-platform mobile application using Flutter to simplify ordering of seeds, fertilizers, and tools for farmers.
    Integrated Firebase for authentication, real-time data storage, and push notifications.
    Implemented offline support and local caching for low-connectivity regions.`,
